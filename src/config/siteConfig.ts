@@ -20,7 +20,7 @@ const pages = resolvePageToggles({
 	// 动态页面开关
 	dynamic: false,
 	// 项目展示页开关
-	projects: true,
+	projects: false,
 	// 相册页面开关
 	gallery: true,
 	// 书签导航页面开关
@@ -42,24 +42,21 @@ const pages = resolvePageToggles({
 
 export const siteConfig: SiteConfig = {
 	// 站点标题
-	title: "esotre",
+	title: "esoter",
 
 	// 站点副标题
-	subtitle: "esotre - 个人博客",
+	subtitle: "esoter - 个人博客",
 
 	// 站点 URL
 	site_url: "https://blog.022311.xyz",
 
 	// 站点描述
 	description:
-		"esotre - 个人博客，分享技术、生活、ACGN等内容。",
+		"esotre - 个人博客，分享技术、生活等内容。",
 
 	// 站点关键词
 	keywords: [
-		"Firefly",
-		"Fuwari",
 		"Astro",
-		"ACGN",
 		"博客",
 		"技术博客",
 		"静态博客",
@@ -117,7 +114,7 @@ export const siteConfig: SiteConfig = {
 			alt: "🍀",
 		},
 		// 导航栏标题
-		title: "Esotre Blog",
+		title: "Esoter Blog",
 		// 全宽导航栏，导航栏是否占满屏幕宽度
 		widthFull: false,
 		// 导航菜单对齐方式，left：左对齐，center：居中
@@ -227,7 +224,7 @@ export const siteConfig: SiteConfig = {
 		// 提醒框（Admonitions）配置，修改后需要重启开发服务器才能生效
 		// 主题：'github' | 'obsidian' | 'vitepress' | 'docusaurus'，每个主题风格和语法不同，可根据喜好选择
 		rehypeCallouts: {
-			theme: "github",
+			theme: "obsidian",
 			// 是否启用兼容 Python-Markdown 风格的 admonition 语法（!!!和???语法）
 			// 注意：只有 theme 配置成 obsidian 主题才能基本支持这些语法，其他主题会有样式问题或不兼容的情况
 			enablePythonMarkdownAdmonitions: false,
